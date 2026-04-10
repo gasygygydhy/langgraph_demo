@@ -1,0 +1,9 @@
+{
+  "dependencies": ["src"],
+  "graphs": {
+    "agent": "./src/agent/my_agent.py:graph",
+    "mcp_agent": "./src/agent/mcp_agent.py:graph"
+  },
+  "env": ".env",
+  "image_distro": "wolfi"
+}
