@@ -6,7 +6,7 @@ pytestmark = pytest.mark.anyio
 
 
 @pytest.mark.skipif(
-    not os.getenv("MCP_SERVER_URL") and not os.getenv("MCP_SERVERS"),
+    not os.getenv("MCP_SERVER_URL") and not os.getenv("MCP_SERVERS") and not os.getenv("MCP_ENABLE"),
     reason="MCP server not configured",
 )
 async def test_mcp_agent_greeting():

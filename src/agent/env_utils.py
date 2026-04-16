@@ -20,3 +20,9 @@ LOCAL_BASE_URL = os.getenv('LOCAL_BASE_URL')
 QW_API_KEY = os.getenv('QW_API_KEY')
 QW_BASE_URL = os.getenv('QW_BASE_URL')
 DB_URI = os.getenv('DB_URI')
+
+
+# mcp
+MCP_SERVER_URL = os.getenv('MCP_SERVER_URL')
+MCP_SERVERS = os.getenv('MCP_SERVERS')
+MCP_ENABLE = os.getenv('MCP_ENABLE')

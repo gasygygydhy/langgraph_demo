@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 
-from agent.env_utils import LOCAL_BASE_URL, DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, OPENAI_API_KEY, OPENAI_BASE_URL, QW_BASE_URL
+from agent.env_utils import LOCAL_BASE_URL, DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, OPENAI_API_KEY, OPENAI_BASE_URL, QW_API_KEY, QW_BASE_URL
 
 # openai的大模型
 # llm = ChatOpenAI(
